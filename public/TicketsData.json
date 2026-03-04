@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "App Crashes on Launch",
+    "description": "The mobile app crashes immediately after opening on Android 11.",
+    "customer": "Rahim Uddin",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-01T10:15:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Unable to Login",
+    "description": "I can't login to my account; it says 'invalid credentials' even though my password is correct.",
+    "customer": "Karim Ahmed",
+    "priority": "high",
+    "status": "pending",
+    "createdAt": "2026-03-01T11:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Billing Error on Payment",
+    "description": "I was charged twice for my subscription this month.",
+    "customer": "Nusrat Jahan",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-02T09:45:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Refund Not Received",
+    "description": "I requested a refund for my purchase last week but haven't received it yet.",
+    "customer": "Tanvir Hasan",
+    "priority": "high",
+    "status": "pending",
+    "createdAt": "2026-03-02T12:20:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Missing Order in App",
+    "description": "I placed an order yesterday, but it doesn't appear in my order history.",
+    "customer": "Sadia Islam",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-02T14:50:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Cannot Update Profile",
+    "description": "Unable to change my profile picture or update my name in the account settings.",
+    "customer": "Arif Hossain",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-03T08:10:00Z"
+  },
+  {
+    "id": 7,
+    "title": "App Freezes During Checkout",
+    "description": "The app freezes when I try to complete a purchase.",
+    "customer": "Mim Akter",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-03T09:40:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Payment Method Not Working",
+    "description": "My saved credit card is declined even though it has sufficient balance.",
+    "customer": "Shakib Al Hasan",
+    "priority": "high",
+    "status": "pending",
+    "createdAt": "2026-03-03T11:05:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Unable to Reset Password",
+    "description": "The reset password link I received does not work.",
+    "customer": "Farhana Rahman",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-03T12:30:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Account Suspended",
+    "description": "My account was suspended without any notification.",
+    "customer": "Mahmudul Hasan",
+    "priority": "high",
+    "status": "pending",
+    "createdAt": "2026-03-04T07:25:00Z"
+  },
+  {
+    "id": 11,
+    "title": "App Notifications Not Working",
+    "description": "I don't receive notifications for new messages or alerts.",
+    "customer": "Jannat Ara",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "2026-03-04T09:10:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Subscription Auto-Renew Failed",
+    "description": "My subscription did not renew automatically, and I lost premium features.",
+    "customer": "Rakib Khan",
+    "priority": "medium",
+    "status": "pending",
+    "createdAt": "2026-03-04T10:45:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Incorrect Billing Amount",
+    "description": "I was charged $20 instead of $10 for my last purchase.",
+    "customer": "Tasnim Chowdhury",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-04T13:30:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Order Delivered But Not Shown in App",
+    "description": "My order shows as delivered but it’s not listed in my order history.",
+    "customer": "Imran Hossain",
+    "priority": "medium",
+    "status": "pending",
+    "createdAt": "2026-03-04T15:00:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Refund Issue With Subscription",
+    "description": "I canceled my subscription but the refund hasn’t been processed yet.",
+    "customer": "Sumaiya Islam",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-04T16:20:00Z"
+  }
+]

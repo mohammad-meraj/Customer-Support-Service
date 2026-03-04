@@ -22,7 +22,7 @@ const Navber = () => {
     </div>
     <a className="text-lg lg:text-xl font-semibold">CS-Ticket System</a>
   </div>
-  <div className="navbar-end flex gap-8">
+  <div className="navbar-end flex gap-5">
      <div className="hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
       <li><a>Home</a></li>
