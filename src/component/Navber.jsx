@@ -12,25 +12,26 @@ const Navber = () => {
       </div>
       <ul
         tabIndex="-1"
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-        </li>
-        <li><a>Item 3</a></li>
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow ">
+        <li><a>Home</a></li>
+      <li><a>FAQ</a></li>
+      <li><a>Changelog</a></li>
+      <li><a>Blog</a></li>
+      <li><a>Downlode</a></li>
+      <li><a>Contact</a></li>
       </ul>
     </div>
     <a className="text-lg lg:text-xl font-semibold">CS-Ticket System</a>
   </div>
   <div className="navbar-end flex gap-5">
      <div className="hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-      <li><a>Home</a></li>
-      <li><a>FAQ</a></li>
-      <li><a>Changelog</a></li>
-      <li><a>Blog</a></li>
-      <li><a>Downlode</a></li>
-      <li><a>Contact</a></li>
+        <ul className="menu menu-horizontal px-1 ">
+      <li className='hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] rounded-sm'><a>Home</a></li>
+      <li className='hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] rounded-sm'><a>FAQ</a></li>
+      <li className='hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] rounded-sm'><a>Changelog</a></li>
+      <li className='hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] rounded-sm'><a>Blog</a></li>
+      <li className='hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] rounded-sm'><a>Downlode</a></li>
+      <li className='hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] rounded-sm'><a>Contact</a></li>
        </ul>
      </div>
     <a className="btn lg:mr-15 text-white font-medium bg-gradient-to-br from-[#632EE3] to-[#9F62F2]"> + New Ticket</a>
