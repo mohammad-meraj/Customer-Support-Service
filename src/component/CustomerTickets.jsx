@@ -18,7 +18,7 @@ const CustomerTickets = ({ticket,selectTicket,setSelectTicket,progress,setProgre
               
                 }}>
     
- <div className="card bg-amber-50 rounded-lg shadow-md h-45">
+ <div className="card bg-amber-50 rounded-lg shadow-md lg:h-45">
   <div className="card-body p-4">
     <div className="flex justify-between items-center mb-2">
       <h3 className="text-lg font-semibold">{ticket.title}</h3>

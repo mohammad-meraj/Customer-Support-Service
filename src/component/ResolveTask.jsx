@@ -8,7 +8,7 @@ const ResolveTask = ({resolveTask}) => {
                     
                     return(
 
-                     <div key={info.id} className="card bg-gradient-to-br from-[#713fe5] to-[#aa76f2] rounded-lg shadow-md w-86">
+                     <div key={info.id} className="card bg-gradient-to-br from-[#713fe5] to-[#aa76f2] rounded-lg shadow-md">
                        <div className="card-body p-4">
                         
                          <h2 className='font-semibold text-lg text-white'>{info.title}</h2>

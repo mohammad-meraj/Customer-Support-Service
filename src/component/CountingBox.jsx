@@ -5,7 +5,7 @@ import vectorImg2 from '../assets/vector2.png';
 
 const CountingBox = ({progress,Resolve}) => {
     return (
-        <div className='flex flex-col lg:flex-row justify-between gap-5 items-center max-w-[85%] mx-auto pt-20'>
+        <div className='flex flex-col lg:flex-row justify-between gap-5 items-center max-w-11/12 mx-auto pt-20'>
            
 
             <div className='relative text-white font-medium bg-gradient-to-br from-[#632EE3] to-[#9F62F2] w-4/5 text-center py-15 rounded-lg'>

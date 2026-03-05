@@ -8,7 +8,7 @@ const TaskStatus = ({selectTicket,setSelectTicket,progress,setProgress,customerP
                 selectTicket.map(info=> {
                     return(
 
-                     <div key={info.id} className="card bg-amber-50 rounded-lg shadow-md w-86">
+                     <div key={info.id} className="card bg-amber-50 rounded-lg shadow-md">
                        <div className="card-body p-4">
                         
                          <h2 className='font-semibold text-lg'>{info.title}</h2>
