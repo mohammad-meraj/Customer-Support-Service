@@ -21,7 +21,7 @@ const Navber = () => {
       <li><a>Contact</a></li>
       </ul>
     </div>
-    <a className="text-lg lg:text-xl font-semibold">CS-Ticket System</a>
+    <a className="text-lg lg:text-xl font-semibold">CS — Ticket System</a>
   </div>
   <div className="navbar-end flex gap-5">
      <div className="hidden lg:flex">
