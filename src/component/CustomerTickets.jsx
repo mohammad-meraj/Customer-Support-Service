@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import time from '../assets/ri_calendar-line.png'
+import { toast } from 'react-toastify';
 const CustomerTickets = ({ticket,selectTicket,setSelectTicket,progress,setProgress}) => {
                const[status,setStatus]=useState(false)
 
@@ -11,6 +12,7 @@ const CustomerTickets = ({ticket,selectTicket,setSelectTicket,progress,setProgre
                        setProgress(progress+1)
                 setSelectTicket([...selectTicket,ticket])
                 setStatus(true)
+                toast("Problem is in Progress.....")
                   }
                 }
               

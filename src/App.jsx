@@ -1,6 +1,7 @@
 
 import { Suspense, useState } from 'react'
 import './App.css'
+import { ToastContainer} from 'react-toastify';
 import CountingBox from './component/CountingBox'
 import Navber from './component/Navber'
 import MainContainer from './component/MainContainer'
@@ -22,7 +23,7 @@ function App() {
         <MainContainer setResolve={setResolve} Resolve={Resolve} progress={progress} setProgress={setProgress} selectTicket={selectTicket} setSelectTicket={setSelectTicket} fetchTickets={fetchTickets}></MainContainer>
       </Suspense>
       <Fotter></Fotter>
-      
+      <ToastContainer />
     </>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const TaskStatus = ({selectTicket,setSelectTicket,progress,setProgress,customerProb,setCustomerProb,Resolve,setResolve,resolveTask,setResolveTask}) => {
     return (
@@ -17,6 +18,7 @@ const TaskStatus = ({selectTicket,setSelectTicket,progress,setProgress,customerP
                             setSelectTicket(selectTicket.filter(data=> data.id!==info.id))
                             setCustomerProb(customerProb.filter(data=> data.id!==info.id))
                             setResolveTask([...resolveTask, info])
+                            toast("Problem is Resolved")
                          }} className='btn bg-green-400 text-white font-medium'>Completed</button>
                      
                        </div>
