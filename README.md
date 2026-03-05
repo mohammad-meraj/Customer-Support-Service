@@ -1,16 +1,10 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# What is JSX, and why is it used?
+Ans: JSX stands for JavaScript XML. It is a syntax extension to JavaScript that allows you to write HTML-like code inside JavaScript files.It makes it easier to design the UI by combining JavaScript logic and HTML structure in the same file.
+    Reason for using JSX:
+    1.Readability & declarative style (UI structure looks very similar to the final HTML output).
+    2.Full JavaScript power inside (You can use any JS expression inside {} curly braces).
+       ex:{user.isAdmin ? <AdminPanel /> : <Login />}
+    3.Component-Based Development.
+       ex:  function Welcome() {
+               return <h1>Hello User</h1>;
+                        }
